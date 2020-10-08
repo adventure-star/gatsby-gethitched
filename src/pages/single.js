@@ -127,13 +127,13 @@ function SinglePage() {
             </form>
             <p className="uppercase pt-1 pb-4 font-14 text-grey-3 text-center font-nexabold">or</p>
             <form method="POST" name="addmailinglist" data-netlify="true">
-              <p className="uppercase text-blue-1 text-lg pt-1 pb-8 font-nexabold">entertainment busket</p>
+              <p className="uppercase text-blue-1 text-lg pt-1 pb-8 font-nexabold">TELL ME MORE ABOUT Wedding singers</p>
               <div className="flex-none xl:flex">
-                <input type="text" className="border border-yellow-3 px-6 xl:px-6 py-4 w-full min-w-174" placeholder="FIRST NAME"/>
-                <input type="text" className="border border-yellow-3 px-6 xl:px-6 w-full my-4 xl:my-0 ml-0 xl:ml-4 py-4" placeholder="EMAIL ADDRESS"/>
+                <input type="text" className="border border-yellow-3 px-6 xl:px-6 py-4 w-full min-w-174 form-input" placeholder="FIRST NAME"/>
+                <input type="text" className="border border-yellow-3 px-6 xl:px-6 w-full my-4 xl:my-0 ml-0 xl:ml-4 py-4 form-input" placeholder="EMAIL ADDRESS"/>
               </div>
               <CheckBox title="Please add me to your mailing list"/>
-              <button type="submit" className="text-yellow-2 uppercase font-14 py-3 mb-6 bg-yellow-1 w-full font-nexabold">send request</button>
+              <button type="submit" className="text-yellow-2 uppercase font-14 py-3 mb-8 bg-yellow-1 w-full font-nexabold">send request</button>
             </form>
           </div>
         </div>

@@ -64,9 +64,9 @@ function BusketPage() {
         {BasketItems}
         <div className="pt-6 pb-4 mb-6 px-8 w-full bg-white mx-auto mt-8 max-w-614">
           <p className="uppercase text-blue-1 text-lg pt-1 pb-1 font-nexabold">send enquiry</p>
-          <input type="text" className="border border-yellow-3 mt-6 mb-3 px-6 py-4 w-full" placeholder="NAME"/>
-          <input type="text" className="border border-yellow-3 mt-3 px-6 py-4 w-full" placeholder="EMAIL ADDRESS"/>
-          <input type="text" className="border border-yellow-3 mt-3 px-6 py-4 w-full" placeholder="PHONE NUMBER"/>
+          <input type="text" className="border border-yellow-3 mt-6 px-6 py-4 w-full form-input" placeholder="NAME"/>
+          <input type="text" className="border border-yellow-3 mt-3 px-6 py-4 w-full form-input" placeholder="EMAIL ADDRESS"/>
+          <input type="text" className="border border-yellow-3 mt-3 px-6 py-4 w-full form-input" placeholder="PHONE NUMBER"/>
           <CheckBox title="Please add me to your mailing list"/>
           <button type="submit" className="text-yellow-2 uppercase font-14 py-3 mt-6 mb-6 bg-yellow-1 w-full font-nexabold">send request</button>
         </div>

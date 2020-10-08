@@ -55,9 +55,9 @@ function ContactPage() {
         </div>
         <form className="pt-6 pb-4 px-8 bg-white w-full md:w-1/2 xl:w-auto ml-auto mr-auto xl:ml-0 xl:mr-0 max-w-614 max-h-445" method="POST" name="contact" data-netlify="true">
           <p className="uppercase text-blue-1 text-lg pt-1 pb-1 font-nexabold">ask us everything</p>
-          <input type="text" className="border border-yellow-3 mt-6 mb-3 px-6 py-4 w-full" placeholder="NAME" />
-          <input type="text" className="border border-yellow-3 mt-3 px-6 py-4 w-full" placeholder="EMAIL ADDRESS" />
-          <input type="text" className="border border-yellow-3 mt-3 px-6 py-4 w-full" placeholder="PHONE NUMBER" />
+          <input type="text" className="border border-yellow-3 mt-6 px-6 py-4 w-full form-input" placeholder="NAME" />
+          <input type="text" className="border border-yellow-3 mt-3 px-6 py-4 w-full form-input" placeholder="EMAIL ADDRESS" />
+          <input type="text" className="border border-yellow-3 mt-3 px-6 py-4 w-full form-input" placeholder="PHONE NUMBER" />
           <CheckBox title="Please add me to your mailing list"/>
           <button type="submit" className="text-yellow-2 uppercase font-14 py-3 mt-6 mb-6 bg-yellow-1 w-full font-nexabold">send request</button>
         </form>

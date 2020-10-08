@@ -43,24 +43,24 @@ function Footer() {
                 </div>
             </div>
             <div className="container grid grid-cols-1 md:grid-cols-2">
-                <div className="bg-yellow-2 py-10 pl-44 lg:pl-68 xl:pl-135 pr-44 md:pr-59">
+                <form className="bg-yellow-2 py-10 pl-44 lg:pl-68 xl:pl-135 pr-44 md:pr-59" method="POST" name="stayinformed" data-netlify="true">
                     <p className="uppercase text-lg text-white pt-1 font-nexabold">Stay informed</p>
                     <p className="pr-25 pt-14 text-lg text-white h-24 sm:h-20 lg:h-16 font-baskerville">Stay informed about service updates, new entertainment<br className="hidden xl:block"/> packages and exclusive discounts</p>
                     <div className="pt-18 max-w-478 flex-none xl:flex w-full">
                         <input type="text" className="min-w-153 h-input px-6 xl:px-6 w-full form-input" placeholder="First Name"/>
                         <input type="text" className="w-full mt-4 xl:mt-0 ml-0 xl:ml-4 px-6 xl:px-6 h-input form-input" placeholder="Email address"/>
                     </div>
-                    <button className="mt-6 mb-2 uppercase bg-yellow-1 text-yellow-2 text-center w-full font-nexabold h-40 max-w-478">Subscribe</button>
-                </div>
-                <div className="bg-yellow-3 pl-44 md:pl-59 py-10 pr-44 md:pr-68">
+                    <button type="submit" className="mt-6 mb-2 uppercase bg-yellow-1 text-yellow-2 text-center w-full font-nexabold h-40 max-w-478">Subscribe</button>
+                </form>
+                <form className="bg-yellow-3 pl-44 md:pl-59 py-10 pr-44 md:pr-68" method="POST" name="requestcallback" data-netlify="true">
                     <p className="uppercase text-lg text-white pt-1 font-nexabold">Request a Call back</p>
                     <p className="pr-25 pt-14 text-lg text-white h-24 sm:h-20 lg:h-16 font-baskerville">Speak to our friendly team to help you get started.</p>
                     <div className="pt-18 max-w-478 flex-none xl:flex w-full">
                         <input type="text" className="min-w-153 h-input px-6 xl:px-6 w-full form-input" placeholder="First Name"/>
                         <input type="text" className="w-full mt-4 xl:mt-0 ml-0 xl:ml-4 px-6 xl:px-6 h-input form-input" placeholder="Email address"/>
                     </div>
-                    <button className="mt-6 mb-2 uppercase bg-yellow-1 text-yellow-2 text-center w-full font-nexabold h-40 max-w-478">Subscribe</button>
-                </div>
+                    <button type="submit" className="mt-6 mb-2 uppercase bg-yellow-1 text-yellow-2 text-center w-full font-nexabold h-40 max-w-478">Subscribe</button>
+                </form>
             </div>
             <div className="container border-b border-yellow-2 pt-4">
                 <div className="relative">
