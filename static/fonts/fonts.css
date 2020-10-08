@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: 'AvenirLight';
+    src: url(./Avenir-Light.ttf);
+}
+
+@font-face {
+    font-family: 'AvenirNextMedium';
+    src: url(./AvenirNext-Medium.ttf);
+}   
+
+@font-face {
+    font-family: 'Baskerville';
+    src: url(./Baskerville.ttf);
+}
+
+@font-face {
+    font-family: 'NexaBold';
+    src: url(./Nexa\ Bold.otf);
+}
+
+@font-face {
+    font-family: 'Athen';
+    src: url(./Athen.ttf);
+}

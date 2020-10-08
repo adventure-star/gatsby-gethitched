@@ -1,0 +1,159 @@
+/*! purgecss start ignore */
+
+/* @import "../fonts/fonts.css";  */
+
+@tailwind base;
+@tailwind components;
+/*! purgecss end ignore */
+
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+    font-family: AvenirNextMedium;
+}
+
+.form-input{
+    font-family: "NexaBold";
+    font-size: 14px;
+    appearance: none;
+    color: #707070;
+}
+
+.form-input::placeholder{
+    @apply text-grey uppercase;
+    font-family: "NexaBold";
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.nav-item{
+    @apply uppercase;
+    font-size: 14px;
+}
+
+.container{
+    @apply mx-auto;
+    max-width: 1366px;
+}
+
+.font-avenirlight {
+    font-family: AvenirLight;
+}
+
+.font-avenirnextmedium {
+    font-family: AvenirNextMedium;
+}
+
+.font-baskerville {
+    font-family: Baskerville;
+}
+
+.font-nexabold {
+    font-family: NexaBold;
+}
+
+.font-athen {
+    font-family: Athen;
+}
+
+.font-10 {
+    font-size: 10px;
+}
+.font-13 {
+    font-size: 13px;
+}
+.font-14 {
+    font-size: 14px;
+}
+.font-20 {
+    font-size: 20px;
+}
+.font-21 {
+    font-size: 21px;
+}
+.font-25 {
+    font-size: 25px;
+}
+.font-28 {
+    font-size: 28px;
+}
+.font-30 {
+    font-size: 30px;
+}
+.font-40 {
+    font-size: 40px;
+}
+.font-42 {
+    font-size: 42px;
+}
+.font-100 {
+    font-size: 100px;
+}
+
+
+.fontweight-700 {
+    font-weight: 700;
+}
+
+.mt-minus53 {
+    margin-top: -53px;
+}
+.opacity-63 {
+    opacity: 0.63;
+}
+.opacity-80 {
+    opacity: 0.8;
+}
+.w-21 {
+    width: 21px;
+}
+.h-15 {
+    height: 15px;
+}
+.h-21 {
+    height: 21px;
+}
+.h-35 {
+    height: 35px;
+}
+.h-37 {
+    height: 37px;
+}
+.h-40 {
+    height: 40px;
+}
+.h-57 {
+    height: 57px;
+}
+.h-83 {
+    height:83px;
+}
+.h-124 {
+    height: 124px;
+}
+.h-298 {
+    height: 298px;
+}
+.h-339 {
+    height: 339px;
+}
+.h-input {
+    height: 52px;
+}
+.m-h-445 {
+    max-height: 445px;
+}
+.pr-25 {
+    padding-right: 25px;
+}
+.pt-14 {
+    padding-top: 14px;
+}
+.pt-18 {
+    padding-top: 18px;
+}
