@@ -1,5 +1,5 @@
 # Get Hitched
-<img src="/screenshots/1.png" alt="first" align="center" />
+<img src="/screenshots/1.png" alt="first" style="margin: auto;" />
 <img src="/screenshots/2.png" alt="first" />
 <img src="/screenshots/3.png" alt="first" />
 <img src="/screenshots/4.png" alt="first" />
